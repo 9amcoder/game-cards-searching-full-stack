@@ -1,0 +1,74 @@
+/* Card.css */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    font-size: 0.9em;
+    color: #333;
+  }
+
+  .card-price {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .search-input{
+    width: 50%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .custom-button {
+    background-color: #ef8d04; /* black blue color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .container-header {
+    background: linear-gradient(to right, #f0a078, #ffed76);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+  }
