@@ -2,6 +2,10 @@
 
 Welcome to the Magic Card Search App! This is a full-stack web application that allows you to search for Magic cards and retrieve information about them from the Scryfall API. The application is built with Express.js as the backend and Create React App as the frontend. It provides a user-friendly interface for searching, filtering, and displaying Magic cards.
 
+## Screenshot
+<img width="1390" alt="Screenshot 2023-10-26 at 8 13 51 PM" src="https://github.com/9amcoder/magic-card-searching-app-full-stack/assets/59545545/e81ba775-190e-4dca-9899-3cd8832bc2e4">
+
+
 ## Functionality
 
 ### Backend (Node and Express)
@@ -70,20 +74,21 @@ npm test
 
 ### Backend Folder structure:
 
-src/
-|-- test/
-|   |-- index.test.ts
-|-- controllers/
-|   |-- cardsController.ts
-|-- middlewares/
-|   |-- validateQuery.ts
-|-- routes/
-|   |-- cards.ts
-|-- services/
-|   |-- cardsService.ts
-|-- utils/
-|   |-- constants.ts
-|-- index.ts
+- **src/**
+  - *test/*
+    - index.test.ts
+  - *controllers/*
+    - cardsController.ts
+  - *middlewares/*
+    - validateQuery.ts
+  - *routes/*
+    - cards.ts
+  - *services/*
+    - cardsService.ts
+  - *utils/*
+    - constants.ts
+  - index.ts
+
 
 ### Third party libraries used:
 
